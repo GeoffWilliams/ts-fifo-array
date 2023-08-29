@@ -1,12 +1,12 @@
 # ts-fifo-array
 
+> A fixed-length, first-in-first-out array for Javascript.
+
 This is a TypeScript/ES6 rewrite of [fifo-array](https://github.com/ben-bradley/fifo-array/).
 
 `fifo-array` is a great simple module but its missing its type definitions and hasnt been updated for many years so easiest to just copy-paste-and-update it.
 
 This is a drop-in replacement for `fifo-array` and thanks to good unit tests on the original project its easy to test correct behaviour of this updated version _and_ reuse the documentation.
-
-> A fixed-length, first-in-first-out array for Javascript.
 
 All credit to [Ben Bradley](https://github.com/ben-bradley) for writing the original.
 
