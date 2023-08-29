@@ -1,9 +1,5 @@
-import {afterEach, beforeAll, beforeEach, describe, expect, it} from "vitest";
-import {getLogger} from "log4js";
+import {describe, expect, it} from "vitest";
 import TsFifoArray from "../src/index.js"
-
-const logger = getLogger();
-logger.level = "debug";
 
 describe('FifoArray', () => {
 

@@ -1,11 +1,3 @@
-import * as dotenv from 'dotenv';
-dotenv.config();
-
-import { Level, getLogger } from "log4js";
-const logger = getLogger();
-const logLevel: Level = (process.env.APP_LOG_LEVEL  || "info") as unknown as Level;
-logger.level = logLevel;
-
 // an array LIKE object (proxy via composition for safety)
 export interface TsFifoArray<T> extends Array<T> {
     max: number;
